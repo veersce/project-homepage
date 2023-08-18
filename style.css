@@ -98,6 +98,7 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 50px 25%;
 }
 
 .header2{
@@ -147,4 +148,51 @@ img{
     font-size: 28px;
     font-weight: bold;
     margin-left: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.layer4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20%;
+}
+
+.layer4 .window{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 16px;
+    gap: 48px;
+    flex: 1;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.layer4 .text .title{
+    color: #F9FAF8;
+    padding-bottom:  16px;
+    margin: 0px;
+}
+
+.layer4 .window .text .subtext{
+    margin: 0px;
+    color: #E5E7EB;
+}
+
+.layer4 .window .sign_up_button{
+    border: 1px solid white;
+}
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 48px 0px;
 }
